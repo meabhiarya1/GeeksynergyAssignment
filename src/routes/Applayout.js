@@ -3,7 +3,7 @@ import Authenticated from "./authenticated";
 import Unauthenticated from "./unauthenticated";
 
 const Applayout = () => {
-  const [user, setUser] = useState(null);
+  const [user, setUser] = useState(null)
 
   useEffect(() => {
     if (localStorage.getItem("user")) {
